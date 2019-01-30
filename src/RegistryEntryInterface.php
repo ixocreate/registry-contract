@@ -16,5 +16,7 @@ use Ixocreate\Contract\ServiceManager\NamedServiceInterface;
 
 interface RegistryEntryInterface extends NamedServiceInterface
 {
+    public function label(): string;
+
     public function element(BuilderInterface $builder): ElementInterface;
 }
