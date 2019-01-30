@@ -14,7 +14,7 @@
     "php": "^7.1",
     "ext-json": "*",
     "ixocreate/servicemanager-contract": "^1.0@alpha",
-    "ixocreate/contract": "=1.0.0-alpha2"
+    "ixocreate/contract": "dev-develop"
   },
   "require-dev": {
     "ixocreate/coding-standard": "^1.0.1"
