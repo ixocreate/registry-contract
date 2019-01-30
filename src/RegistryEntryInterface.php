@@ -11,9 +11,10 @@ namespace Ixocreate\Contract\Registry;
 
 use Ixocreate\Contract\Schema\ElementInterface;
 use Ixocreate\Contract\Schema\SchemaProviderInterface;
-use Ixocreate\Schema\Builder;
+use Ixocreate\Contract\Schema\BuilderInterface;
+use Ixocreate\Contract\ServiceManager\NamedServiceInterface;
 
-interface RegistryEntryInterface
+interface RegistryEntryInterface extends NamedServiceInterface
 {
-    public function element(Builder $builder): ElementInterface;
+    public function element(BuilderInterface $builder): ElementInterface;
 }
