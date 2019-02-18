@@ -13,8 +13,7 @@
   "require": {
     "php": "^7.1",
     "ext-json": "*",
-    "ixocreate/servicemanager-contract": "dev-development",
-    "ixocreate/contract": "dev-develop"
+    "ixocreate/servicemanager-contract": "dev-develop"
   },
   "require-dev": {
     "ixocreate/coding-standard": "^1.0.1"
